@@ -1,0 +1,177 @@
+/* Reset gaya default browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f96c;
+    padding: 20px;
+}
+
+/* Styling Header */
+header {
+    text-align: center;
+    background-color: #3b1f84;
+    color: rgba(255, 255, 255, 0.671);
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header img {
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+/* Styling Navigation Bar */
+nav {
+    background-color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(67, 15, 210);
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #9f1313;
+    border-radius: 5px;
+}
+
+/* Styling Sections */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #c0143c;
+    margin-bottom: 10px;
+}
+
+.container-content p {
+    margin-bottom: 15px;
+}
+
+/* Tombol Aksi */
+.button {
+    display: inline-block;
+    background-color: #ec1f90;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #a70f0f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #18c9dc;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 3px solid #0a2441;
+}
+
+.container-footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.h1-footer {
+    color: #007bff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        display: block;
+    }
+}
+
+/* Styling untuk bagian Kontak dan Instagram */
+#contact {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #d53552; /* Warna khas Instagram */
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.instagram-link:hover {
+    color: #c13584;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.instagram-link:hover .social-icon {
+    transform: scale(1.2);
+}
